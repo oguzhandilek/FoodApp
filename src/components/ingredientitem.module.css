@@ -1,0 +1,59 @@
+.itemContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+    max-width: 500px;
+    margin: 20px;
+    width: 300px;
+}
+
+.itemContainer:hover {
+    transform: scale(1.05);
+}
+
+.itemContainer img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.itemContent {
+    padding: 20px;
+    text-align: center;
+}
+
+.itemName {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.buttonContainer {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.buttonContainer button {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.buttonContainer button:hover {
+    background-color: #ff4500;
+}
+.image{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
